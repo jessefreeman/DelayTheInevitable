@@ -4,7 +4,7 @@ const zip = require('gulp-zip');
 
 const src = './Exports/';
 const dest = './Releases/';
-const filename = ' DelayTheInevitable.zip';
+const filename = 'DelayTheInevitable.zip';
 
 gulp.task('release-clean', function () {
     return del(
