@@ -1,4 +1,4 @@
-name: DelayTheInevitable
+name:DelayTheInevitable
 
 on:
   push:
@@ -40,5 +40,4 @@ jobs:
           path: Releases/DelayTheInevitable.zip
           project: ${{ env.itchio_project }}
           channel: files
-          version: ${{ env.CURRENT }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
